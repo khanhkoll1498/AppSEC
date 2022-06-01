@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="listener"
+            type="com.tsolution.base.listener.AdapterListener" />
+
+        <variable
+            name="viewModel"
+            type="com.kna.appsec.viewmodel.SoundSentencesFrgVM" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:paddingBottom="@dimen/dp_16">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:theme="@style/ToolbarColoredBackBlack"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="@drawable/icon_back"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:titleTextColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_intonation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_48"
+            android:background="@drawable/bg_round_8dp_white"
+            android:padding="@dimen/dp_8"
+            android:text="Ngữ điệu (Intonation)"
+            android:textColor="#212121"
+            android:textSize="@dimen/dp_18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            app:listener="@{listener}" />
+
+        <TextView
+            android:id="@+id/tv_reduced_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_16"
+            android:background="@drawable/bg_round_8dp_white"
+            android:padding="@dimen/dp_8"
+            android:text="Nhấn, giảm âm (Reduced sounds)"
+            android:textColor="#212121"
+            android:textSize="@dimen/dp_18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_intonation"
+            app:listener="@{listener}" />
+
+        <TextView
+            android:id="@+id/tv_word_connections"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_16"
+            android:background="@drawable/bg_round_8dp_white"
+            android:padding="@dimen/dp_8"
+            android:text="Nối và biến đổi âm (Word connections)"
+            android:textColor="#212121"
+            android:textSize="@dimen/dp_18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_reduced_sound"
+            app:listener="@{listener}" />
+
+        <TextView
+            android:id="@+id/tv_overview_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_16"
+            android:background="@drawable/bg_round_8dp_white"
+            android:padding="@dimen/dp_8"
+            android:text="Overview sounds"
+            android:textColor="#212121"
+            android:textSize="@dimen/dp_18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_word_connections"
+            app:listener="@{listener}" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

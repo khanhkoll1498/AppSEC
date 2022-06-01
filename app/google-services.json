@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "845138780716",
+    "firebase_url": "https://sec-app-koll-default-rtdb.firebaseio.com",
+    "project_id": "sec-app-koll",
+    "storage_bucket": "sec-app-koll.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845138780716:android:a8557db72890ef13ce6789",
+        "android_client_info": {
+          "package_name": "com.kna.appsec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845138780716-04lup4lc1f0qg2r7u3k369ohssgve1k3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kna.appsec",
+            "certificate_hash": "376cc6c479c9f585b243ab027247f39e7ab4b0c8"
+          }
+        },
+        {
+          "client_id": "845138780716-pis3cmmt0rjdmp77dc03oj8qhhqa964t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMU2hxtHpl7CgFStg-oNCDnKctexb-1bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845138780716-pis3cmmt0rjdmp77dc03oj8qhhqa964t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

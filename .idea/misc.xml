@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1962962962962963" />
+        <entry key="app/src/main/res/drawable/bg_fab_label.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_round.xml" value="0.117" />
+        <entry key="app/src/main/res/drawable/bg_round_24dp_orange.xml" value="0.1375" />
+        <entry key="app/src/main/res/drawable/bg_round_8dp_orange.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/bg_round_8dp_white.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/bg_toast.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/bg_toast_add_to_cart.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/bg_tv_white.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/cursor_edit_text.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/dialog_rounded_bg.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/drawer_list_selector.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_toys_24.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/ic_clear.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_fact_check_24.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/ic_home.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/ic_keyboard_arrow_right_orange.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/ic_library_books_24.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/ic_menu_book_24.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/ic_setting.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/ic_star_gold.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/ic_wallet.xml" value="0.106" />
+        <entry key="app/src/main/res/drawable/icon_back.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/picture_audio_placeholder.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/picture_image_placeholder.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/rounded_dialog.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.14114583333333333" />
+        <entry key="app/src/main/res/layout/content_fragment.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/layout/custom_toast_view.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/dialog_confirm.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/dialog_with_edit_text.xml" value="0.1453125" />
+        <entry key="app/src/main/res/layout/fragment_base_english.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/fragment_game.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/fragment_grammar.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/fragment_history.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/fragment_practice.xml" value="0.3037037037037037" />
+        <entry key="app/src/main/res/layout/fragment_programmes.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/fragment_sound_sentences.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/layout/fragment_sound_word.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/layout/fragment_test.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/fragment_test_word.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/layout/fragment_vocabulary.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/gv_filter_image.xml" value="0.14361702127659576" />
+        <entry key="app/src/main/res/layout/item_history.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/item_test_word.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_topic.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_word.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/layout_toast.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/menu/bottom_navigation_menu_sec.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/menu/menu_notification.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/menu/menu_practice.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/menu/menu_wallet.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/menu/navigation_routing.xml" value="0.2907692307692308" />
+        <entry key="app/src/main/res/menu/popuo_menu_select_reveice_type.xml" value="0.2907692307692308" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

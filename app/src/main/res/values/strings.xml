@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AppSEC</string>
+    <string name="update_success">Update successfully</string>
+    <string name="network_error">Please check internet connection</string>
+    <string name="gps_network_not_enabled">GPS network not enabled</string>
+    <string name="open_location_settings">Open location setting</string>
+    <string name="Cancel">Cancel</string>
+    <string name="write_message">Write message</string>
+    <string name="CONFIRM">Confirm</string>
+    <string name="Practice">Practice</string>
+    <string name="Home">Home</string>
+    <string name="Programmes">Programmes</string>
+    <string name="Test">Test</string>
+    <string name="language_skills">Language Skills</string>
+    <string name="Grammar">Grammar</string>
+    <string name="vocabulary">Vocabulary</string>
+    <string name="english_for">English for</string>
+    <string name="toeic">TOEIC</string>
+    <string name="base_english">Phần 1. KIẾN THỨC NỀN</string>
+    <string name="Clauses">Phần 2. MỆNH ĐỀ</string>
+    <string name="accent">Phần 3. ÂM ( PHÁT ÂM + NGHE + NÓI )</string>
+    <string name="content">Content</string>
+    <string name="Anh_ngữ_SEC">Anh ngữ SEC</string>
+    <string name="SEC_Toeic">SEC Toeic</string>
+    <string name="Luyện_tập">Luyện tập</string>
+    <string name="Test_3000_word">Kiểm tra 3000 từ</string>
+    <string name="history">Lịch sử</string>
+    <string name="sound_word">Hiện tượng âm thanh trong từ</string>
+    <string name="sound_sentences">Hiện tượng âm thanh trong câu</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/test_3000_word"
+        android:title="@string/Test_3000_word" />
+
+    <item
+        android:id="@+id/history"
+        android:title="@string/history" />
+
+</menu>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.kna.appsec.viewmodel.ProgrammesFrgVM" />
+
+        <variable
+            name="listener"
+            type="com.tsolution.base.listener.AdapterListener" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EEEEEE">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_56"
+            android:background="#FFAB40"
+            android:gravity="center"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Programmes"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_18" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:id="@+id/tv_language_skills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_16"
+            android:text="@string/language_skills"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp_20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/app_bar" />
+
+        <TextView
+            android:id="@+id/tv_grammar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_16"
+            android:background="@drawable/bg_tv_white"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_16"
+            android:paddingTop="@dimen/dp_8"
+            android:paddingBottom="@dimen/dp_8"
+            android:text="@string/Grammar"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            app:drawableEndCompat="@drawable/ic_keyboard_arrow_right_orange"
+            app:layout_constraintStart_toStartOf="@id/tv_language_skills"
+            app:layout_constraintTop_toBottomOf="@id/tv_language_skills"
+            app:listener="@{listener}" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/gray"
+            app:layout_constraintBottom_toBottomOf="@id/tv_grammar" />
+
+        <TextView
+            android:id="@+id/tv_vocabulary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_tv_white"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_16"
+            android:paddingTop="@dimen/dp_8"
+            android:paddingBottom="@dimen/dp_8"
+            android:text="@string/vocabulary"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            app:drawableEndCompat="@drawable/ic_keyboard_arrow_right_orange"
+            app:layout_constraintStart_toStartOf="@id/tv_language_skills"
+            app:layout_constraintTop_toBottomOf="@id/tv_grammar"
+            app:listener="@{listener}" />
+
+        <TextView
+            android:id="@+id/tv_english_for"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_marginTop="@dimen/dp_16"
+            android:text="@string/english_for"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dp_20dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_vocabulary" />
+
+        <TextView
+            android:id="@+id/tv_toeic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_16"
+            android:background="@drawable/bg_tv_white"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/dp_16"
+            android:paddingTop="@dimen/dp_8"
+            android:paddingBottom="@dimen/dp_8"
+            android:text="@string/toeic"
+            android:textColor="@color/black"
+            android:textStyle="normal"
+            app:drawableEndCompat="@drawable/ic_keyboard_arrow_right_orange"
+            app:layout_constraintStart_toStartOf="@id/tv_language_skills"
+            app:layout_constraintTop_toBottomOf="@id/tv_english_for"
+            app:listener="@{listener}" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

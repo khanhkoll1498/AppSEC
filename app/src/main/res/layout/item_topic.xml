@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="viewHolder"
+            type="com.kna.appsec.model.Topic" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ct_item_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/bg_round_8dp_white"
+        android:padding="@dimen/dp_16dp">
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="@dimen/margin_15dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/dp_4"
+            android:layout_marginTop="@dimen/dp_2"
+            android:background="@drawable/bg_round_8dp_orange"
+            android:gravity="center"
+            android:text="@{viewHolder.stt}"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dp_18"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_topic_vn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_16"
+            android:layout_weight="1"
+            android:lineSpacingExtra="@dimen/dp_2"
+            android:text="@{viewHolder.topicNameVietnamese}"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/dimen_18"
+            app:layout_constraintBottom_toBottomOf="@id/tv_number"
+            app:layout_constraintStart_toEndOf="@id/tv_number"
+            app:layout_constraintTop_toTopOf="@id/tv_number" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FFAB40</color>
+    <color name="colorPrimaryDark">#0088FF</color>
+    <color name="colorAccent">#3eaca8</color>
+    <color name="colorAccent_v2">#0088FF</color>
+    <color name="color_item_selected">#D6DAC7</color>
+    <color name="color_item">#2f9395</color>
+    <color name="color_sub_item">#5B333333</color>
+    <color name="color_tran_50">#50000000</color>
+
+    <color name="material_grey_500">#9E9E9E</color>
+    <color name="colorGrey50">#fafafa</color>
+    <color name="selection_background_color">#FEBB20</color>
+    <color name="accent">#F5734A</color>
+    <color name="accent_text">#FFC312</color>
+    <color name="accentLight">#F4FF81</color>
+    <color name="gray">#F4F4F4</color>
+    <color name="gray2">#2d2d2d</color>
+    <color name="gray3">#DBDADA</color>
+    <color name="gray4">#909296</color>
+    <color name="black">#000000</color>
+    <color name="black10">#393939</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_item_dxt">#F0FFF0</color>
+    <color name="primaryPressed">#bebebe</color>
+    <color name="theme_secondary_text_inverted">#FFFFFF</color>
+
+    <color name="main_color">#B20024</color>
+    <color name="red">#FF0000</color>
+    <color name="da_cam_dark">#c41c00</color>
+    <color name="status">#ff5722</color>
+    <color name="da_cam">#ff5722</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorGray">#CCC</color>
+    <color name="colorFacebook">#4a6ea9</color>
+    <color name="colorGoogle">#da4835</color>
+    <color name="usage_state_foreground_color">#2196F3</color>
+    <color name="state_background_color">#BDBDBD</color>
+    <color name="state_background_text_color">#808080</color>
+    <color name="state_foreground_text_color">#eeeeee</color>
+    <color name="demo_state_foreground_color">#009688</color>
+
+    <color name="description_background_color">#0BB5FF</color>
+    <color name="description_foreground_color">#002395</color>
+    <color name="stroke_infowindow">#F7F7F7</color>
+
+    <color name="usage_pink">#b42379</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+
+    <color name="green">#38d662</color>
+    <color name="green_bg">#CCF0E0</color>
+
+    <color name="green_text">#009432</color>
+    <color name="order_detail_color">#01BFA5</color>
+    <color name="seen">#edf2fa</color>
+    <color name="mango">#ff5722</color>
+    <color name="mango2">#ffcc33</color>
+    <color name="lighter_pink">#ffe2137a</color>
+    <color name="deep_gray">#ff191919</color>
+
+
+    <color name="white_100">#ffffffff</color>
+    <color name="white_12">#1effffff</color>
+    <color name="white_30">#4cffffff</color>
+    <color name="white_50">#7fffffff</color>
+    <color name="white_70">#b2ffffff</color>
+    <color name="white_f9">#fff9f9f9</color>
+    <color name="white_fa">#fffafafa</color>
+
+    <color name="background">#dddddd</color>
+
+    <!-- ========================= color new design ==================== -->
+    <color name="primaryColor">#289767</color>
+    <color name="primaryLightColor">#99E1C1</color>
+    <color name="primaryDarkColor">#007F45</color>
+    <color name="primaryTextColor">#3A3E41</color>
+
+
+    <color name="background_edit_text">#FBFCFC</color>
+    <color name="background_button">#289767</color>
+    <color name="title_text_color">#323232</color>
+    <color name="action_text_color">#347ee6</color>
+    <color name="edit_text_color">#333333</color>
+    <color name="hint_text_color">#999999</color>
+    <color name="border_edit_text_color">#E1E6E6</color>
+    <color name="icon_back_color">#2E3A59</color>
+    <color name="white_medium">#FDFDFD</color>
+    <color name="color_price">#FF0C20</color>
+    <color name="color_progress_not_fill">#C8C9CA</color>
+    <color name="color_normal_text">#24282C</color>
+    <color name="item_off">#919395</color>
+    <color name="primary_text">#5B5E61</color>
+    <color name="color_pending">#F6AF36</color>
+
+    <color name="item_1">#66CCF0E0</color>
+    <color name="item_2">#4DFFCED2</color>
+    <color name="item_3">#33F4FF81</color>
+    <color name="item_4">#332196F3</color>
+    <color name="item_5">#33F6AF36</color>
+    <color name="color_circle__backgrount_thirty_minus">#D7DEF0</color>
+    <color name="color_circle_thirty_minus">#9FB2E1</color>
+    <color name="color_circle_load_background_red">#F9EDEB</color>
+    <color name="color_circle_load_red">#F5D9D4</color>
+    <color name="text_color_blue">#347EE6</color>
+    <color name="unread_color">#40CCF0E0</color>
+
+    <array name="sample_progress_gradient">
+        <item>#009688</item>
+        <item>#80CBC4</item>
+    </array>
+    <array name="receive_money">
+        <item>#009688</item>
+        <item>#009688</item>
+    </array>
+    <array name="use_money">
+        <item>#F5734A</item>
+        <item>#F5734A</item>
+    </array>
+</resources>
